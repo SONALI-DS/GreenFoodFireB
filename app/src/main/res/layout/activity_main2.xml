@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+        android:id="@+id/navigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:appbarTitleTextColor="@color/orange_500"
+        app:HamMenuIconTintColor="@color/orange_500">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_centerInParent="true"
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+        </androidx.viewpager.widget.ViewPager>
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+</RelativeLayout>

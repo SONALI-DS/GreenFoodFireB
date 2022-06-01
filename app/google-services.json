@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457431679817",
+    "project_id": "greenfoodfireb-79898",
+    "storage_bucket": "greenfoodfireb-79898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457431679817:android:89191409718fc088f0d098",
+        "android_client_info": {
+          "package_name": "com.android.greenfoodfireb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457431679817-2ldjn97mhspkseksh7loos8ujb4oo4d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhz6LB-_o9tJCz8fWdb4OdI-zE-9mnZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457431679817-2ldjn97mhspkseksh7loos8ujb4oo4d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

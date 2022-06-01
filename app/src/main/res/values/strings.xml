@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GreenLand</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lorem">GreenLand.... It is history. Food is tradition. Food in Greenland forms part of a larger culture, a culture that prides itself on hunting and forming tight bonds with family and friends. Those who hunt together have a strong sense of solidarity. Historically, food that is caught is also shared. Communities depended on each other and worked together in order to thrive. According to Greenland’s official website, Greenland.com, even today “food and mealtimes remain a central part of Greenland’ characteristic hospitality.”
+Due to Greenland’s cultural investment with Nature many ingredients are often organic. Fish, game, and marine mammals usually roam free allowing people to have access to food while keeping the environment in tact. There is little to no use of artificial feed and or flavorings. </string>
+
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5(Max)</item>
+    </string-array>
+</resources>

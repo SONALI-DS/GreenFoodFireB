@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    tools:context=".TestAct">
+
+     <Button
+        android:id="@+id/searchBT"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Search items here...."
+        android:textAlignment="textStart"
+        android:textColorHint="@color/white"
+        android:background="@color/transparent_black_percent_60"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/burgerBT"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/burgerrr"
+            android:textSize="20sp"
+            android:fontFamily="@font/aladin"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+
+
+        <Button
+            android:id="@+id/pastaBT"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pastaaa"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rectangle"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <Button
+            android:id="@+id/sandwichBT"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/sandwichhh"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dessertBT"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/desserttt"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <Button
+            android:id="@+id/beverageBT"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:text="BEVRAGES"
+            android:background="@drawable/beverageee"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
